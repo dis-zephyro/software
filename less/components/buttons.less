@@ -1,0 +1,32 @@
+.btn {
+	margin:0;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 8px 25px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background: @color-red;
+	background-image: none;
+	font-family: @font-roboto;
+	touch-action: manipulation;
+	.border-radius(3px);
+	.transition(.3s);
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+		background: @color-red - #222;
+	}
+
+	&:active {
+		top: 1px;
+	}
+}

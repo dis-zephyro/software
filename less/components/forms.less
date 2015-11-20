@@ -1,0 +1,36 @@
+.form-control {
+	margin: 0;
+	width: 100%;
+	outline: none;
+	color: #c5c5c5;
+	font-size: 13px;
+	background: #fff;
+	line-height: 20px;
+	padding: 7px 20px;
+	font-style: italic;
+	display: inline-block;
+	border: 1px solid #f2f2f2;
+	.placeholder(#c5c5c5);
+	.box-shadow(inset 1px 1px 5px 0px rgba(0, 0, 0, 0.2));
+	.border-radius(3px);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	&:focus {
+		.placeholder(transparent);
+	}
+}
+
+
+label {
+	font-weight: 400;
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
