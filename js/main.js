@@ -24,3 +24,6 @@ $('.slider-body').slick({
     slidesToShow: 1,
     slidesToScroll: 1
 });
+
+
+$("input[type='checkbox']").ionCheckRadio();
