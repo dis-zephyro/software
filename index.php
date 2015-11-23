@@ -175,7 +175,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="divider-gray"></div>
+                        <div class="divider-gray pt20"></div>
                         <div class="text-center">
                             <a class="search-link" href="#" >
                                 <span>Advanced search</span><i class="fa fa-search"></i>

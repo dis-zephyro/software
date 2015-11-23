@@ -92,6 +92,81 @@
 	}
 }
 
+.softbox {
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+
+	.softbox-text {
+		font-size: 14px;
+	}
+
+	.softbox-left {
+		padding-bottom: 15px;
+	}
+
+	p {
+		margin-bottom: 10px;
+	}
+
+	.softbox-image {
+		float: left;
+		width: 40px;
+		margin: 0 20px 10px 0;
+	}
+
+	.softbox-description {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 14px;
+		line-height: 20px;
+
+		li {
+
+		}
+
+		.softbox-tag {
+			font-size: 12px;
+		}
+	}
+
+	.softbox-summary {
+		font-size: 12px;
+		line-height: 20px;
+		float: right;
+		padding-top: 0;
+
+		span {
+			font-size: 14px;
+			display: block;
+		}
+	}
+}
+
+.divider-gray {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dddddc;
+}
+
+.img-left {
+	width: 90px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+.img-border {
+	border: 1px solid #cccccc;
+}
+
+.pt30 {
+	padding-top: 30px;
+}
+
+.pt20 {
+	padding-top: 30px;
+}
 
 @media (min-width: @screen-xs-min) {
 
@@ -107,6 +182,40 @@
 }
 
 @media (min-width: @screen-sm-min) {
+
+	.softbox {
+
+		h4 {
+			font-size: 20px;
+			margin-bottom: 25px;
+		}
+
+		.softbox-description {
+
+			> li {
+				display: inline-block;
+				margin-right: 15px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.softbox-summary {
+			float: none;
+			padding-top: 15px;
+
+			span {
+				font-size: 14px;
+				display: block;
+			}
+		}
+	}
+
+	.img-left {
+		width: 150px;
+	}
 
 }
 
@@ -133,6 +242,25 @@
 				}
 			}
 		}
+	}
+
+	.softbox {
+		display: table;
+
+		.softbox-left {
+			padding-right: 30px;
+			display: table-cell;
+		}
+
+		.softbox-right {
+			width: 120px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
+	.img-left {
+		width: 200px;
 	}
 }
 
