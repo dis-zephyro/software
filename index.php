@@ -9,7 +9,6 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-
     <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -18,7 +17,6 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
 
     <!-- Header -->
@@ -353,6 +351,7 @@
     <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/slick/slick.min.js"></script>
     <script src="js/vendor/ion.checkRadio.min.js"></script>
+    <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
