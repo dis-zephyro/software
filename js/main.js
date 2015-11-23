@@ -25,5 +25,32 @@ $('.slider-body').slick({
     slidesToScroll: 1
 });
 
+$('.widget-tabs').tabs();
 
 $("input[type='checkbox']").ionCheckRadio();
+
+
+// Screenshot
+
+$('.screenshot-body').slick({
+    arrows: false,
+    autoplay: true,
+    dots: false,
+    vertical: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 2,
+    slidesToScroll: 1
+});
+
+$('.screenshot-nav.prev').click(function(){
+    $('.screenshot-body').slick('slickPrev');
+});
+
+$('.screenshot-nav.next').click(function(){
+    $('.screenshot-body').slick('slickNext');
+});
+
+
+$(".btn-modal").fancybox({
+    'padding'    : 0
+});

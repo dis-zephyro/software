@@ -1,0 +1,37 @@
+.breadcrumbs {
+	margin-bottom: 25px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+		line-height: 0;
+		list-style: none;
+
+		li {
+			height: 16px;
+			font-size: 13px;
+			line-height: 16px;
+			padding-right: 14px;
+			position: relative;
+			display: inline-block;
+
+			&:before {
+				top: 1px;
+				right: 4px;
+				font-size: 13px;
+				line-height: 15px;
+				content: '>';
+				color: #7b7b7b;
+				position: absolute;
+			}
+
+			&:last-child {
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+}
